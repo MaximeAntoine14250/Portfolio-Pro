@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio BUT Réseaux et Télécommunications</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation fixe -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-name">Portfolio RT</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#accueil" class="nav-link">Accueil</a>
+                <a href="#apropos" class="nav-link">À propos</a>
+                <a href="#competences" class="nav-link">Compétences</a>
+                <a href="#sae" class="nav-link">SAÉ</a>
+                <a href="#ressources" class="nav-link">Ressources</a>
+                <a href="#projection" class="nav-link">Projection</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page d'accueil -->
+    <section id="accueil" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-left">
+                <h1 class="hero-title fade-in-up">Maxime ANTOINE</h1>
+                <h2 class="hero-subtitle fade-in-up delay-1">BUT Réseaux et Télécommunications</h2>
+                <p class="hero-description fade-in-up delay-2">
+                    Portfolio numérique documentant ma progression dans les trois compétences clés du référentiel RT
+                </p>
+                <div class="hero-buttons fade-in-up delay-3">
+                    <a href="#competences" class="btn btn-primary">Découvrir mes compétences</a>
+                    <a href="#apropos" class="btn btn-secondary">En savoir plus</a>
+                </div>
+            </div>
+            <div class="hero-right fade-in-right">
+                <div class="photo-container">
+                    <img src="images/data.jfif" alt="Photo professionnelle" class="hero-photo">
+                    <div class="photo-overlay"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- À propos -->
+    <section id="apropos" class="section section-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À propos de moi</h2>
+                <div class="section-subtitle">Mon parcours et mes objectifs</div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Présentation personnelle</h3>
+                    <p>
+                        Étudiant(e) en BUT Réseaux et Télécommunications, je développe mes compétences dans l'administration 
+                        des réseaux, la connexion des entreprises et la création d'outils informatiques spécialisés. 
+                        Ma formation me permet d'acquérir une vision globale des enjeux technologiques actuels.
+                    </p>
+                    
+                    <h3>Parcours scolaire</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>2023-2026 : BUT Réseaux et Télécommunications</h4>
+                                <p>Formation en alternance ou initiale - Développement des 3 compétences RT</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>2023 : Baccalauréat</h4>
+                                <p>Bac général/technologique avec spécialités scientifiques</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Objectifs professionnels</h3>
+                    <p>
+                        Mon objectif est de devenir un professionnel polyvalent capable d'intervenir sur l'ensemble 
+                        de la chaîne des réseaux et télécommunications, de l'infrastructure technique aux applications 
+                        utilisateur, en passant par l'administration et la sécurité des systèmes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="competences" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Les 3 Compétences RT</h2>
+                <div class="section-subtitle">Ma progression dans le référentiel BUT RT</div>
+            </div>
+            
+            <!-- Compétence 1 -->
+            <div class="competence-card">
+                <div class="competence-header">
+                    <div class="competence-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="competence-title">
+                        <h3>Administrer les réseaux et l'internet</h3>
+                        <p>Gestion et maintenance des infrastructures réseau</p>
+                    </div>
+                    <div class="competence-progress-circle">
+                        <div class="progress-ring" data-progress="65">
+                            <svg class="progress-ring-svg" width="80" height="80">
+                                <circle class="progress-ring-circle-bg" cx="40" cy="40" r="30"></circle>
+                                <circle class="progress-ring-circle" cx="40" cy="40" r="30" data-progress="65"></circle>
+                            </svg>
+                            <div class="progress-text">65%</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="competence-content">
+                    <div class="ac-list">
+                        <h4>Apprentissages Critiques :</h4>
+                        <div class="ac-grid">
+                            <div class="ac-item">
+                                <div class="ac-progress">
+                                    <span class="ac-label">AC1 - Installer et configurer un poste de travail</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-width="70%"></div>
+                                        <span class="progress-percent">70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ac-item">
+                                <div class="ac-progress">
+                                    <span class="ac-label">AC2 - Déployer des services dans une architecture réseau</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-width="60%"></div>
+                                        <span class="progress-percent">60%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="competence-evolution">
+                        <h4>Évolution par semestre :</h4>
+                        <div class="semester-progress">
+                            <div class="semester">S1: 45%</div>
+                            <div class="semester">S2: 65%</div>
+                            <div class="semester target">S3: 75% (objectif)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Compétence 2 -->
+            <div class="competence-card">
+                <div class="competence-header">
+                    <div class="competence-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="competence-title">
+                        <h3>Connecter les entreprises et les usagers</h3>
+                        <p>Mise en place de solutions de connectivité</p>
+                    </div>
+                    <div class="competence-progress-circle">
+                        <div class="progress-ring" data-progress="58">
+                            <svg class="progress-ring-svg" width="80" height="80">
+                                <circle class="progress-ring-circle-bg" cx="40" cy="40" r="30"></circle>
+                                <circle class="progress-ring-circle" cx="40" cy="40" r="30" data-progress="58"></circle>
+                            </svg>
+                            <div class="progress-text">58%</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="competence-content">
+                    <div class="ac-list">
+                        <h4>Apprentissages Critiques :</h4>
+                        <div class="ac-grid">
+                            <div class="ac-item">
+                                <div class="ac-progress">
+                                    <span class="ac-label">AC1 - Caractériser les besoins d'un site</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-width="65%"></div>
+                                        <span class="progress-percent">65%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ac-item">
+                                <div class="ac-progress">
+                                    <span class="ac-label">AC2 - Planifier le déploiement d'un réseau</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-width="50%"></div>
+                                        <span class="progress-percent">50%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="competence-evolution">
+                        <h4>Évolution par semestre :</h4>
+                        <div class="semester-progress">
+                            <div class="semester">S1: 35%</div>
+                            <div class="semester">S2: 58%</div>
+                            <div class="semester target">S3: 70% (objectif)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Compétence 3 -->
+            <div class="competence-card">
+                <div class="competence-header">
+                    <div class="competence-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="competence-title">
+                        <h3>Créer des outils et applications informatiques pour les RT</h3>
+                        <p>Développement d'applications spécialisées</p>
+                    </div>
+                    <div class="competence-progress-circle">
+                        <div class="progress-ring" data-progress="72">
+                            <svg class="progress-ring-svg" width="80" height="80">
+                                <circle class="progress-ring-circle-bg" cx="40" cy="40" r="30"></circle>
+                                <circle class="progress-ring-circle" cx="40" cy="40" r="30" data-progress="72"></circle>
+                            </svg>
+                            <div class="progress-text">72%</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="competence-content">
+                    <div class="ac-list">
+                        <h4>Apprentissages Critiques :</h4>
+                        <div class="ac-grid">
+                            <div class="ac-item">
+                                <div class="ac-progress">
+                                    <span class="ac-label">AC1 - Programmer et développer des applications</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-width="75%"></div>
+                                        <span class="progress-percent">75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ac-item">
+                                <div class="ac-progress">
+                                    <span class="ac-label">AC2 - Utiliser des outils de développement</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" data-width="68%"></div>
+                                        <span class="progress-percent">68%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="competence-evolution">
+                        <h4>Évolution par semestre :</h4>
+                        <div class="semester-progress">
+                            <div class="semester">S1: 55%</div>
+                            <div class="semester">S2: 72%</div>
+                            <div class="semester target">S3: 80% (objectif)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SAÉ -->
+    <section id="sae" class="section section-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes SAÉ</h2>
+                <div class="section-subtitle">Situations d'Apprentissage et d'Évaluation</div>
+            </div>
+            
+            <!-- Filtres -->
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">Toutes</button>
+                <button class="filter-btn" data-filter="comp1">Administrer</button>
+                <button class="filter-btn" data-filter="comp2">Connecter</button>
+                <button class="filter-btn" data-filter="comp3">Créer</button>
+            </div>
+
+            <div class="sae-grid">
+                <!-- SAÉ 1 -->
+                <div class="sae-card" data-competence="comp1">
+                    <div class="sae-image">
+                        <img src="images/sae1.jpg" alt="SAÉ Installation réseau">
+                        <div class="sae-overlay">
+                            <button class="btn-view-details" onclick="openSAEModal('sae1')">
+                                <i class="fas fa-eye"></i> Voir détails
+                            </button>
+                        </div>
+                    </div>
+                    <div class="sae-content">
+                        <div class="sae-tags">
+                            <span class="tag tag-comp1">Administrer</span>
+                        </div>
+                        <h3>SAÉ 1.01 - Installation d'un réseau local</h3>
+                        <p>Mise en place d'une infrastructure réseau complète pour une petite entreprise.</p>
+                        <div class="sae-meta">
+                            <span class="sae-date"><i class="fas fa-calendar-alt"></i> Semestre 1</span>
+                            <span class="sae-group"><i class="fas fa-users"></i> Groupe de 3</span>
+                        </div>
+                        <div class="sae-actions">
+                            <button class="btn btn-small btn-primary" onclick="openSAEModal('sae1')">Détails</button>
+                            <a href="documents/sae1-rapport.pdf" class="btn btn-small btn-secondary" target="_blank">
+                                <i class="fas fa-download"></i> Rapport
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SAÉ 2 -->
+                <div class="sae-card" data-competence="comp2">
+                    <div class="sae-image">
+                        <img src="images/sae2.jpg" alt="SAÉ Connectivité entreprise">
+                        <div class="sae-overlay">
+                            <button class="btn-view-details" onclick="openSAEModal('sae2')">
+                                <i class="fas fa-eye"></i> Voir détails
+                            </button>
+                        </div>
+                    </div>
+                    <div class="sae-content">
+                        <div class="sae-tags">
+                            <span class="tag tag-comp2">Connecter</span>
+                        </div>
+                        <h3>SAÉ 2.01 - Connexion entreprises</h3>
+                        <p>Étude et mise en œuvre de solutions de connectivité inter-sites.</p>
+                        <div class="sae-meta">
+                            <span class="sae-date"><i class="fas fa-calendar-alt"></i> Semestre 2</span>
+                            <span class="sae-group"><i class="fas fa-users"></i> Groupe de 4</span>
+                        </div>
+                        <div class="sae-actions">
+                            <button class="btn btn-small btn-primary" onclick="openSAEModal('sae2')">Détails</button>
+                            <a href="documents/sae2-rapport.pdf" class="btn btn-small btn-secondary" target="_blank">
+                                <i class="fas fa-download"></i> Rapport
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SAÉ 3 -->
+                <div class="sae-card" data-competence="comp3">
+                    <div class="sae-image">
+                        <img src="images/sae3.jpg" alt="SAÉ Développement application">
+                        <div class="sae-overlay">
+                            <button class="btn-view-details" onclick="openSAEModal('sae3')">
+                                <i class="fas fa-eye"></i> Voir détails
+                            </button>
+                        </div>
+                    </div>
+                    <div class="sae-content">
+                        <div class="sae-tags">
+                            <span class="tag tag-comp3">Créer</span>
+                        </div>
+                        <h3>SAÉ 1.02 - Application de monitoring</h3>
+                        <p>Développement d'une application web pour surveiller l'état d'un réseau.</p>
+                        <div class="sae-meta">
+                            <span class="sae-date"><i class="fas fa-calendar-alt"></i> Semestre 1</span>
+                            <span class="sae-group"><i class="fas fa-user"></i> Individuel</span>
+                        </div>
+                        <div class="sae-actions">
+                            <button class="btn btn-small btn-primary" onclick="openSAEModal('sae3')">Détails</button>
+                            <a href="documents/sae3-code.zip" class="btn btn-small btn-secondary" target="_blank">
+                                <i class="fas fa-download"></i> Code source
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ressources -->
+    <section id="ressources" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ressources et apprentissages</h2>
+                <div class="section-subtitle">Documents et évaluations</div>
+            </div>
+
+            <div class="resources-grid">
+                <div class="resource-category">
+                    <h3><i class="fas fa-star"></i> Évaluations</h3>
+                    <div class="resource-list">
+                        <div class="resource-item">
+                            <i class="fas fa-file-alt"></i>
+                            <span>DS Réseaux - Note: 15/20</span>
+                            <a href="documents/ds-reseaux.pdf" target="_blank" class="btn-download">
+                                <i class="fas fa-download"></i>
+                            </a>
+                        </div>
+                        <div class="resource-item">
+                            <i class="fas fa-file-alt"></i>
+                            <span>TP Configuration Cisco - Validé</span>
+                            <a href="documents/tp-cisco.pdf" target="_blank" class="btn-download">
+                                <i class="fas fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resource-category">
+                    <h3><i class="fas fa-book"></i> Études de cas</h3>
+                    <div class="resource-list">
+                        <div class="resource-item">
+                            <i class="fas fa-file-powerpoint"></i>
+                            <span>Étude infrastructure PME</span>
+                            <a href="documents/etude-pme.pptx" target="_blank" class="btn-download">
+                                <i class="fas fa-download"></i>
+                            </a>
+                        </div>
+                        <div class="resource-item">
+                            <i class="fas fa-file-word"></i>
+                            <span>Analyse sécurité réseau</span>
+                            <a href="documents/analyse-securite.docx" target="_blank" class="btn-download">
+                                <i class="fas fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resource-category">
+                    <h3><i class="fas fa-lightbulb"></i> Réflexions</h3>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <h4>Retour d'expérience - Travail en équipe</h4>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <p>
+                                    Le travail en équipe sur les SAÉ m'a permis de développer mes compétences 
+                                    relationnelles et organisationnelles. J'ai appris à mieux communiquer mes idées 
+                                    techniques et à coordonner les tâches entre les membres de l'équipe...
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <h4>Difficultés rencontrées et solutions</h4>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="accordion-content">
+                                <p>
+                                    La configuration des équipements Cisco a initialement posé des difficultés. 
+                                    J'ai surmonté ces obstacles en pratiquant davantage sur simulateur et en 
+                                    demandant l'aide des enseignants...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projection -->
+    <section id="projection" class="section section-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projection et évolution</h2>
+                <div class="section-subtitle">Bilan et objectifs futurs</div>
+            </div>
+
+            <div class="projection-content">
+                <div class="bilan-global">
+                    <h3>Bilan global de mes apprentissages</h3>
+                    <div class="bilan-cards">
+                        <div class="bilan-card">
+                            <div class="bilan-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h4>Points forts</h4>
+                            <ul>
+                                <li>Maîtrise du développement web</li>
+                                <li>Capacité d'adaptation rapide</li>
+                                <li>Esprit d'équipe développé</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bilan-card">
+                            <div class="bilan-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h4>Points à améliorer</h4>
+                            <ul>
+                                <li>Configuration équipements réseau</li>
+                                <li>Analyse de performance</li>
+                                <li>Gestion de projet</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bilan-card">
+                            <div class="bilan-icon">
+                                <i class="fas fa-target"></i>
+                            </div>
+                            <h4>Objectifs S3</h4>
+                            <ul>
+                                <li>Atteindre 75% sur toutes les compétences</li>
+                                <li>Approfondir la sécurité réseau</li>
+                                <li>Développer l'autonomie</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="evolution-chart">
+                    <h3>Évolution de mes compétences</h3>
+                    <div class="chart-container">
+                        <canvas id="competenceChart" width="400" height="200"></canvas>
+                    </div>
+                </div>
+
+                <div class="plan-developpement">
+                    <h3>Plan de développement personnel</h3>
+                    <div class="timeline-future">
+                        <div class="timeline-item-future">
+                            <div class="timeline-marker-future"></div>
+                            <div class="timeline-content-future">
+                                <h4>Court terme (S3)</h4>
+                                <p>Approfondir les certifications Cisco, améliorer les compétences en sécurité réseau</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item-future">
+                            <div class="timeline-marker-future"></div>
+                            <div class="timeline-content-future">
+                                <h4>Moyen terme (S4-S6)</h4>
+                                <p>Stage en entreprise, spécialisation cybersécurité, projet de fin d'études</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item-future">
+                            <div class="timeline-marker-future"></div>
+                            <div class="timeline-content-future">
+                                <h4>Long terme (Post-BUT)</h4>
+                                <p>Poursuite d'études en école d'ingénieur ou entrée dans la vie active</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Portfolio BUT RT - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <!-- Modales SAÉ -->
+    <div id="saeModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeSAEModal()">&times;</span>
+            <div id="modalBody">
+                <!-- Contenu dynamique -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/progress-bars.js"></script>
+</body>
+</html>

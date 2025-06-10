@@ -1,0 +1,99 @@
+/* Animations d'entrée */
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.fade-in-right {
+    opacity: 0;
+    transform: translateX(30px);
+    animation: fadeInRight 0.8s ease-out forwards;
+}
+
+.delay-1 {
+    animation-delay: 0.2s;
+}
+
+.delay-2 {
+    animation-delay: 0.4s;
+}
+
+.delay-3 {
+    animation-delay: 0.6s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInRight {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Animation au scroll */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-out;
+}
+
+.animate-on-scroll.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Effet hover sur les cartes */
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* Animation des barres de progression */
+@keyframes progressAnimation {
+    from {
+        width: 0;
+    }
+}
+
+.progress-bar-animated .progress-fill {
+    animation: progressAnimation 2s ease-in-out;
+}
+
+/* Animation des cercles de progression */
+@keyframes progressRing {
+    from {
+        stroke-dashoffset: 188.5;
+    }
+}
+
+.progress-ring-animated .progress-ring-circle {
+    animation: progressRing 2s ease-in-out;
+}
+
+/* Pulsation pour les éléments interactifs */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(237, 28, 36, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(237, 28, 36, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(237, 28, 36, 0);
+    }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
