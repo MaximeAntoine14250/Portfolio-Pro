@@ -922,6 +922,242 @@ body {
     padding: 30px 0;
 }
 
+/* Ajoutez ces styles à votre fichier CSS */
+
+/* Modal SAÉ détaillée */
+.modal-sae-detail {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+    backdrop-filter: blur(5px);
+}
+
+.modal-sae-content {
+    position: relative;
+    background-color: white;
+    margin: 2% auto;
+    padding: 0;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 900px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    animation: modalSlideIn 0.3s ease-out;
+}
+
+@keyframes modalSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px) scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.modal-sae-header {
+    background: linear-gradient(135deg, var(--primary-color), #c41e3a);
+    color: white;
+    padding: 25px 30px;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+
+.modal-sae-header h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.modal-sae-header p {
+    margin: 5px 0 0 0;
+    opacity: 0.9;
+    font-size: 1.1rem;
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    transition: var(--transition);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-close-btn:hover {
+    background: rgba(255,255,255,0.2);
+    transform: rotate(90deg);
+}
+
+.modal-sae-body {
+    padding: 30px;
+}
+
+.evaluation-section {
+    margin-bottom: 30px;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.evaluation-section h3 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.evaluation-section h3 i {
+    font-size: 1.2rem;
+}
+
+.evaluation-section p {
+    margin: 0;
+    line-height: 1.7;
+    color: #555;
+}
+
+.evaluation-section ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.evaluation-section li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.competences-mobilisees {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+.competence-tag {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.competence-tag.admin {
+    background: #e3f2fd;
+    color: #1976d2;
+    border: 1px solid #bbdefb;
+}
+
+.competence-tag.connect {
+    background: #e8f5e8;
+    color: #388e3c;
+    border: 1px solid #c8e6c9;
+}
+
+.competence-tag.create {
+    background: #fff3e0;
+    color: #f57c00;
+    border: 1px solid #ffcc02;
+}
+
+.quality-rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.stars {
+    color: #ffc107;
+    font-size: 1.2rem;
+}
+
+.rating-text {
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.modal-sae-footer {
+    padding: 20px 30px;
+    background: #f8f9fa;
+    border-radius: 0 0 15px 15px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.modal-meta {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.modal-actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* Responsive pour les modales */
+@media (max-width: 768px) {
+    .modal-sae-content {
+        width: 95%;
+        margin: 1% auto;
+    }
+    
+    .modal-sae-body {
+        padding: 20px;
+    }
+    
+    .modal-sae-header {
+        padding: 20px;
+    }
+    
+    .modal-sae-header h2 {
+        font-size: 1.5rem;
+    }
+    
+    .evaluation-section {
+        padding: 20px;
+    }
+    
+    .modal-sae-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+
+
+
+
+
 /* Animations */
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
@@ -1013,3 +1249,73 @@ body {
     }
 }
 
+/* Ajoutez ce CSS à votre fichier de style */
+
+/* Galerie de preuves */
+.preuves-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.preuve-item {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.preuve-item:hover {
+    transform: scale(1.02);
+}
+
+.preuve-item img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Modal pour agrandir les images */
+.image-modal {
+    display: none;
+    position: fixed;
+    z-index: 3000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.image-modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.image-modal img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.image-close:hover {
+    color: #ff6b6b;
+}
