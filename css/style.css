@@ -1,7 +1,7 @@
 /* Reset et variables */
 :root {
-    --primary-color: #ED1C24;
-    --secondary-color: #FFFFFF;
+    --primary-color: #003781;
+    --secondary-color: #ffffff;
     --text-color: #333333;
     --light-bg: #F5F5F5;
     --shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -209,9 +209,9 @@ body {
 }
 
 .btn-primary:hover {
-    background: #c41e3a;
+    background: #003781;
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(237, 28, 36, 0.3);
+    box-shadow: 0 5px 15px rgba(28, 136, 237, 0.3);
 }
 
 .btn-secondary {
@@ -551,7 +551,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(237, 28, 36, 0.8);
+    background: #003781;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -692,7 +692,7 @@ body {
 }
 
 .btn-download:hover {
-    background: #c41e3a;
+    background: #003781;
     transform: scale(1.05);
 }
 
@@ -964,7 +964,7 @@ body {
 }
 
 .modal-sae-header {
-    background: linear-gradient(135deg, var(--primary-color), #c41e3a);
+    background: linear-gradient(135deg, var(--primary-color), #2f1ec4);
     color: white;
     padding: 25px 30px;
     border-radius: 15px 15px 0 0;
@@ -1317,5 +1317,5 @@ body {
 }
 
 .image-close:hover {
-    color: #ff6b6b;
+    color: #6bc4ff;
 }

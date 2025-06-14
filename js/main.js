@@ -10,7 +10,7 @@ const saeData = {
             description: 'Completion du MOOC ANSSI avec obtention du certificat. Maîtrise des concepts fondamentaux de cybersécurité : authentification, chiffrement, sauvegardes, et bonnes pratiques de sécurité informatique.',
             qualite: 4,
             details: [
-                'Certificat ANSSI obtenu avec 85% de réussite',
+                'Certificat ANSSI obtenu avec 100% de réussite',
                 'Compréhension des enjeux de cybersécurité',
                 'Maîtrise des outils de protection (antivirus, firewall)',
                 'Application des bonnes pratiques au quotidien'
@@ -87,7 +87,7 @@ const saeData = {
         semestre: 'Semestre 1',
         type: 'Binôme',
         resultat: {
-            description: 'Étude comparative complète des supports de transmission avec mesures pratiques et rapport technique illustré.',
+            description: 'Étude comparative entre les différents supports de transmission avec des mesures pratiques et rapport technique illustré.',
             qualite: 4,
             details: [
                 'Mesures précises de performances',
@@ -97,19 +97,18 @@ const saeData = {
             ]
         },
         demarche: {
-            description: 'Alternance théorie/pratique avec expérimentations en laboratoire et analyse rigoureuse des résultats.',
+            description: 'Analyse rigoureuse des résultats théorique et pratique',
             qualite: 4,
             etapes: [
                 'Recherche théorique approfondie',
-                'Planification des expérimentations',
-                'Réalisation des mesures pratiques',
+                'Réalisation des mesures ',
                 'Analyse et synthèse des résultats'
             ]
         },
         autoevaluation: 'Excellente progression sur la compréhension des transmissions. Développement de la rigueur scientifique.',
         adaptabilite: 'Compétences clés pour le dimensionnement de liaisons et le diagnostic de performance réseau.',
         preuve: {
-            description: 'Certificat ANSSI obtenu et captures d\'écran du parcours de formation.',
+            description: 'Image représentant une expérimentation réalisée en TP',
             images: [
                 'images/sae13.png'
             ]
@@ -123,7 +122,7 @@ const saeData = {
         semestre: 'Semestre 1',
         type: 'Individuel',
         resultat: {
-            description: 'Site web personnel responsive et professionnel créé avec HTML5, CSS3 et JavaScript, comprenant CV interactif et portfolio.',
+            description: 'Site web personnel responsive et professionnel créé avec HTML5 et CSS3.',
             qualite: 4,
             details: [
                 'Design moderne et responsive',
@@ -185,7 +184,7 @@ const saeData = {
         autoevaluation: 'Excellent travail d\'équipe et maîtrise des concepts de programmation et d\'analyse de données.',
         adaptabilite: 'Compétences essentielles pour l\'analyse de performances, la business intelligence et le monitoring réseau.',
         preuve: {
-            description: 'Certificat ANSSI obtenu et captures d\'écran du parcours de formation.',
+            description: '',
             images: [
                 'images/sae15.png'
             ]
@@ -219,10 +218,10 @@ const saeData = {
                 'Tests d\'intégration et validation'
             ]
         },
-        autoevaluation: 'Projet très réussi démontrant une excellente maîtrise technique et une collaboration efficace.',
+        autoevaluation: 'Projet bien réussi démontrant une bonne maîtrise technique et une collaboration efficace.',
         adaptabilite: 'Compétences Cisco directement valorisables en entreprise et préparant aux certifications professionnelles.',
         preuve: {
-            description: 'Certificat ANSSI obtenu et captures d\'écran du parcours de formation.',
+            description: '',
             images: [
                 'images/sae21.png'
             ]
@@ -258,7 +257,7 @@ const saeData = {
         autoevaluation: 'Travail exemplaire avec maîtrise d\'équipements complexes et développement de l\'esprit critique.',
         adaptabilite: 'Compétences de métrologie cruciales pour le déploiement et la maintenance d\'infrastructures télécoms.',
         preuve: {
-            description: 'Certificat ANSSI obtenu et captures d\'écran du parcours de formation.',
+            description: 'Mesure réalisée en TP',
             images: [
                 'images/sae22.png'
             ]
@@ -283,7 +282,7 @@ const saeData = {
             ]
         },
         demarche: {
-            description: 'Gestion de projet agile avec sprints, suivi client régulier et tests utilisateurs continus.',
+            description: 'Mise en œuvre d\'une démarche agile basée sur le suivi du cahier des charges et des validations régulières par les utilisateurs.',
             qualite: 5,
             etapes: [
                 'Analyse besoins et cahier des charges',
@@ -292,7 +291,7 @@ const saeData = {
                 'Tests utilisateurs et déploiement'
             ]
         },
-        autoevaluation: 'Projet exemplaire démontrant ma capacité à gérer un développement complexe en équipe.',
+        autoevaluation: 'Projet mené à bien grâce à une bonne compréhension du fonctionnement et de l\'intégration de l\'API.',
         adaptabilite: 'Compétences full-stack transférables à tout environnement de développement professionnel.',
         preuve: {
             description: `<strong>Lien vers le repository GitHub :</strong><br><a href="https://github.com/MaximeAntoine14250/SAE23.git" target="_blank">https://github.com/MaximeAntoine14250/SAE23.git</a><br><br><strong>Lien vers la version en ligne (GitHub Pages) :</strong><br><a href="https://maximeantoine14250.github.io/SAE23/" target="_blank">https://maximeantoine14250.github.io/SAE23/</a>`,
@@ -314,10 +313,8 @@ const saeData = {
             details: [
                 'Infrastructure réseau complète et sécurisée',
                 'Services serveurs opérationnels',
-                'Outils de supervision développés sur mesure',
                 'Documentation technique exhaustive',
-                'Formation utilisateurs réalisée',
-                'Projet livré dans les délais'
+                'Projet réalisé dans les délais'
             ]
         },
         demarche: {
@@ -327,15 +324,13 @@ const saeData = {
                 'Analyse des besoins et étude de faisabilité',
                 'Conception de l\'architecture globale',
                 'Planification et répartition des tâches',
-                'Développement parallèle des composants',
-                'Tests d\'intégration et validation client',
-                'Déploiement et formation utilisateurs'
+                'Tests',
             ]
         },
-        autoevaluation: 'Projet exemplaire représentant l\'aboutissement de ma formation. Excellente synergie d\'équipe.',
+        autoevaluation: 'Projet exemplaire représentant l\'aboutissement de ma formation. Trés bonne synergie d\'équipe.',
         adaptabilite: 'Ce projet démontre ma capacité à gérer des projets IT complexes directement applicables en entreprise.',
         preuve: {
-            description: 'Certificat ANSSI obtenu et captures d\'écran du parcours de formation.',
+            description: 'Montage de la maquette',
             images: [
                 'images/sae24.png'
             ]
