@@ -220,7 +220,7 @@ const saeData = {
         autoevaluation: 'Projet bien réussi démontrant une bonne maîtrise technique et une collaboration efficace.',
         adaptabilite: 'Compétences Cisco directement valorisables en entreprise et préparant aux certifications professionnelles.',
         preuve: {
-            description: '',
+            description: 'cour : https://fromsmash.com/0tY_m0.2TE-ct',
             images: [
                 
             ]
