@@ -73,9 +73,9 @@ const saeData = {
         autoevaluation: 'Bonne maîtrise des concepts théoriques. Collaboration efficace. Le travail n’est pas encore entièrement achevé, en particulier sur les aspects liés à la performance et aux fonctionnalités de la maquette.',
         adaptabilite: 'Base essentielle pour toute carrière informatique, applicable en administration système et support technique.',
         preuve: {
-            description: 'Image du projet final',
+            description: 'Compte rendu du projet : https://fromsmash.com/Compte-rendue-projet-SAE12',
             images: [
-                'images/sae12-ip.png'
+                
             ]
         }
     },
@@ -108,9 +108,8 @@ const saeData = {
         autoevaluation: 'Excellente progression sur la compréhension des transmissions. Développement de la rigueur scientifique.',
         adaptabilite: 'Compétences clés pour le dimensionnement de liaisons et le diagnostic de performance réseau.',
         preuve: {
-            description: 'Image représentant une expérimentation réalisée en TP',
+            description: 'Compte rendue SAE103 : https://fromsmash.com/compte-rendue-sae23-photometrie, https://fromsmash.com/compte-rendue-sae23-reflectometrie',
             images: [
-                'images/sae13.png'
             ]
         }
     },
@@ -223,7 +222,7 @@ const saeData = {
         preuve: {
             description: '',
             images: [
-                'images/sae21.png'
+                
             ]
         }
     },
@@ -257,9 +256,9 @@ const saeData = {
         autoevaluation: 'Travail exemplaire avec maîtrise d\'équipements complexes et développement de l\'esprit critique.',
         adaptabilite: 'Compétences de métrologie cruciales pour le déploiement et la maintenance d\'infrastructures télécoms.',
         preuve: {
-            description: 'Mesure réalisée en TP',
+            description: 'Comptes rendues des projet de SAE202 : https://fromsmash.com/compte-rendue-sae22-groupe, https://fromsmash.com/compte-rendu-sae2-binome',
             images: [
-                'images/sae22.png'
+                
             ]
         }
     },
@@ -330,7 +329,7 @@ const saeData = {
         autoevaluation: 'Projet exemplaire représentant l\'aboutissement de ma formation. Trés bonne synergie d\'équipe.',
         adaptabilite: 'Ce projet démontre ma capacité à gérer des projets IT complexes directement applicables en entreprise.',
         preuve: {
-            description: 'Montage de la maquette',
+            description: 'Livrables : https://fromsmash.com/repartion-taches, https://fromsmash.com/shema-logique,https://fromsmash.com/shema-physique ',
             images: [
                 'images/sae24.png'
             ]
