@@ -145,7 +145,7 @@ const saeData = {
         preuve: {
             description: `Certificat ANSSI obtenu et captures d'écran du parcours de formation.<br><br>
         Lien GitHub : <a href="https://github.com/MaximeAntoine14250/SAE14-Projet-main?tab=readme-ov-file" target="_blank">https://github.com/MaximeAntoine14250/SAE14-Projet-main</a><br><br>
-        Lien GitPage : <a href="https://maximeantoine14250.github.io/SAE14-Projet-main/" target="_blank">https://maximeantoine14250.github.io/SAE14-Projet-main/</a>`,
+        Lien GitPage : <a href="https://maximeantoine14250.github.io/SAE14-Projet-main/" target="_blank">https://maximeantoine14250.github.io/SAE14-Projet-main//</a>`,
             images: [
                 'images/sae14-2.png'
             ]
