@@ -30,9 +30,9 @@ const saeData = {
         autoevaluation: 'Très bonne assimilation des concepts de base. Formation théorique solide mais j\'aimerais plus de pratique technique.',
         adaptabilite: 'Ces compétences sont essentielles dans tous les métiers IT et applicables à l\'administration système et au développement.',
         preuve: {
-            description: 'Certificat ANSSI obtenu et captures d\'écran du parcours de formation.',
+            description: 'Certificat ANSSI obtenu.',
             images: [
-                'images/sae11.png'
+                
             ]
         }
     },
@@ -185,7 +185,7 @@ const saeData = {
         preuve: {
             description: '',
             images: [
-                'images/sae15.png'
+                'Très bon résultat obtenue'
             ]
         }
     },
