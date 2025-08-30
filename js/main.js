@@ -329,7 +329,7 @@ const saeData = {
         autoevaluation: 'Projet exemplaire représentant l\'aboutissement de ma formation. Trés bonne synergie d\'équipe.',
         adaptabilite: 'Ce projet démontre ma capacité à gérer des projets IT complexes directement applicables en entreprise.',
         preuve: {
-            description: 'Livrables : https://fromsmash.com/repartion-taches, https://fromsmash.com/shema-logique,https://fromsmash.com/shema-physique ',
+            description: 'Livrablessss : https://fromsmash.com/repartion-taches, https://fromsmash.com/shema-logique,https://fromsmash.com/shema-physique ',
             images: [
             ]
         }
