@@ -331,7 +331,6 @@ const saeData = {
         preuve: {
             description: 'Livrables : https://fromsmash.com/repartion-taches, https://fromsmash.com/shema-logique,https://fromsmash.com/shema-physique ',
             images: [
-            
             ]
         }
     }
