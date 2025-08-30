@@ -147,7 +147,7 @@ const saeData = {
         Lien GitHub : <a href="https://github.com/MaximeAntoine14250/SAE14-Projet-main?tab=readme-ov-file" target="_blank">https://github.com/MaximeAntoine14250/SAE14-Projet-main</a><br><br>
         Lien GitPage : <a href="https://maximeantoine14250.github.io/SAE14-Projet-main/" target="_blank">https://maximeantoine14250.github.io/SAE14-Projet-main//</a>`,
             images: [
-                'images/sae14-2.png'
+                
             ]
         }
         
@@ -295,7 +295,7 @@ const saeData = {
         preuve: {
             description: `<strong>Lien vers le repository GitHub :</strong><br><a href="https://github.com/MaximeAntoine14250/SAE23.git" target="_blank">https://github.com/MaximeAntoine14250/SAE23.git</a><br><br><strong>Lien vers la version en ligne (GitHub Pages) :</strong><br><a href="https://maximeantoine14250.github.io/SAE23/" target="_blank">https://maximeantoine14250.github.io/SAE23/</a>`,
             images: [
-                'images/sae23.png'
+                
             ]
         }
     },
@@ -331,7 +331,7 @@ const saeData = {
         preuve: {
             description: 'Livrables : https://fromsmash.com/repartion-taches, https://fromsmash.com/shema-logique,https://fromsmash.com/shema-physique ',
             images: [
-                'images/sae24.png'
+            
             ]
         }
     }
