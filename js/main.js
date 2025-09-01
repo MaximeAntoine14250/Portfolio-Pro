@@ -73,7 +73,7 @@ const saeData = {
         autoevaluation: 'Bonne maîtrise des concepts théoriques. Collaboration efficace. Le travail n’est pas encore entièrement achevé, en particulier sur les aspects liés à la performance et aux fonctionnalités de la maquette.',
         adaptabilite: 'Base essentielle pour toute carrière informatique, applicable en administration système et support technique.',
         preuve: {
-            description: 'Compte rendu du projet : https://fromsmash.com/Compte-rendue-projet-SAE12',
+            description: 'Compte rendu du projet : https://drive.google.com/drive/folders/1F5wCXaZG10ITycP8aN6acwITPAK338K8?usp=drive_link',
             images: [
                 
             ]
