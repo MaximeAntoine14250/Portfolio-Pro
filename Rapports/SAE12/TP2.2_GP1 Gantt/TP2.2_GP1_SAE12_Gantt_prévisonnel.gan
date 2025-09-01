@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-11-16" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3309" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="200" order="0"/>
+        <field id="tpd4" name="Date de début" width="75" order="1"/>
+        <field id="tpd5" name="Date de fin" width="75" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[9,1,2]]></timeline>
+        <option id="color.recent"><![CDATA[#00cc66 #0000ff #00ffcc #990099 #ff3333 #ffff33 #ff9933 #ffffff #33ffff #ff0033]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="12" uid="b865de337bbc4e26b2753ee3e207357d" name="Création plan IP" color="#ff9933" meeting="false" start="2024-12-02" duration="1" complete="0" thirdDate="2024-11-21" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <notes><![CDATA[Créer un plan IPv4
+◦ Choisir une plage IP privée et réaliser le découpage ci-dessous :
+◦ Chaque Vlan devra pouvoir contenir 90 machines
+▪ Le calcul du masque sera fait au plus près.]]></notes>
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" uid="ec49610afafb4ea7bd12aa664c686c80" name="Config SW L2" color="#ff3333" meeting="false" start="2024-12-03" duration="3" complete="1" thirdDate="2024-12-05" thirdDate-constraint="0" priority="2" expand="true">
+            <notes><![CDATA[Commutateurs L2 (2960X), commutateur L2L3 (3750 24 ports )
+
+• Mettre en œuvre des Vlans calqués sur l’organigramme de l’entreprise avec les numéros de Vlans associés
+  ◦ Services logiciels (hébergement des serveurs) => 100
+  ◦ Comptabilité => 120
+  ◦ Administratif => 140
+  ◦ Vente => 160
+  ◦ Supervision => 180
+  ◦ Administration Informatique => 190
+
+• Mettre en œuvre du RSTP, ou une version propriétaire
+  ◦ Le commutateur racine sera le modèle 3750
+  ◦ Les ports des équipements terminaux ne seront pas concernés
+
+• Effectuer du routage inter-vlans
+
+• Connecter les 3 commutateurs via des liens agrégés (2 liens) en Gb (si disponible).
+
+• Mettre en œuvre un service DHCP (sur le SW3750) pour tous les Vlans (sauf le vlan "Serveurs")
+ ◦ Le service DNS (cache) de l'entreprise sera utilisé.
+
+• Ajouter une description sur tous les Vlans et les ports d'interconnexion
+
+• Répartir les ports entre les différents Vlans
+
+• Conserver quelques ports dans un Vlan "non utilisé" (voir partie "Sécurité")]]></notes>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" uid="44e63034de6f4e3294682772796699f9" name="Config SW L3" color="#ff3333" meeting="false" start="2024-12-03" duration="3" complete="0" thirdDate="2024-12-05" thirdDate-constraint="0" priority="2" expand="true">
+            <notes><![CDATA[Commutateurs L2 (2960X), commutateur L2L3 (3750 24 ports )
+
+• Mettre en œuvre des Vlans calqués sur l’organigramme de l’entreprise avec les numéros de Vlans associés
+  ◦ Services logiciels (hébergement des serveurs) => 100
+  ◦ Comptabilité => 120
+  ◦ Administratif => 140
+  ◦ Vente => 160
+  ◦ Supervision => 180
+  ◦ Administration Informatique => 190
+
+• Mettre en œuvre du RSTP, ou une version propriétaire
+  ◦ Le commutateur racine sera le modèle 3750
+  ◦ Les ports des équipements terminaux ne seront pas concernés
+
+• Effectuer du routage inter-vlans
+
+• Connecter les 3 commutateurs via des liens agrégés (2 liens) en Gb (si disponible).
+
+• Mettre en œuvre un service DHCP (sur le SW3750) pour tous les Vlans (sauf le vlan "Serveurs")
+ ◦ Le service DNS (cache) de l'entreprise sera utilisé.
+
+• Ajouter une description sur tous les Vlans et les ports d'interconnexion
+
+• Répartir les ports entre les différents Vlans
+
+• Conserver quelques ports dans un Vlan "non utilisé" (voir partie "Sécurité")]]></notes>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" uid="b47360ca92ce4e7c8f8f0b2bf86031f2" name="Création Lien agrégés" color="#ff3333" meeting="false" start="2024-12-06" duration="2" complete="0" thirdDate="2024-11-21" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Lien agrégés
+
+Connecter les 3 commutateurs via des liens agrégés (2 liens) en Gb (si disponible)]]></notes>
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" uid="073804dc78614acca6cdf89b2c82b371" name="Liaison serveur proxmox" color="#ffff33" meeting="false" start="2024-12-10" duration="1" complete="0" thirdDate="2024-11-21" thirdDate-constraint="0" expand="true">
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" uid="b4ccdf9e29d049e0b33698b71d8a8f1e" name="Configuration VM" color="#ffff33" meeting="false" start="2024-12-11" duration="1" complete="0" thirdDate="2024-12-20" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Sur le serveur Proxmox : 
+
+Réaliserez les services sur une machine virtuelle basée sur une distribution Debian (12) sous noyau Linux et sans interface graphique.
+
+Configuration :
+• 8Gb de RAM
+• Bios => OVMF UEFI
+• Carte graphique => VirtioGPU
+• 3 disques de 50GB ; 30GB ; 30GB
+  ◦ Disque 1 (etx4fs, sauf la partition "boot EFI" et swap)
+       ▪ "boot EFI" => environ 500MB
+       ▪ "racine" => / 40GB
+       ▪ "partition d'échange" => "swap" => 6GB
+       ▪ "fichiers temporaires" => /tmp => 4GB
+   ◦ Disque 2
+       ▪ "Données variables" => /var
+   ◦ Disque 3
+       ▪ "Données utilisateurs" /home
+
+ Les utilisateurs de l’entreprise disposeront sur le serveur :
+   ◦ D'un espace de stockage "personnel"
+   ◦ Seul les membres du service "Administration Informatique" disposeront d'un shell (bash)
+   ◦ Vous utiliserez les listes fournies par le service comptabilité pour créer automatiquement les comptes
+utilisateurs, les mots de passe seront générés automatiquement (8 caractères, alphanumériques/symboles)
+   ◦ Les 5 premiers noms sont ceux du service "Administration Informatique", les 5 suivants ceux du service
+"Administratif", les autres utilisateurs seront répartis équitablement, entre les services.
+   ◦ Indice de votre responsable => Pas de programmation ou script bash avec    des boucles et useradd !
+       ▪ Tout est disponible sur la distribution Debian => commandes : newsuser          & l pwgen/crunch]]></notes>
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="28" uid="2e3ff5797a44495188c74c25159dfeb7" name="Configuration Serveur" color="#00cc66" meeting="false" start="2024-12-12" duration="1" complete="0" thirdDate="2024-11-20" thirdDate-constraint="0" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="19" uid="c94f290cb29442fea4b0fcb79a96e0f7" name="Interconnexion routeur et SW L3" color="#0000ff" meeting="false" start="2024-12-13" duration="2" complete="0" thirdDate="2024-12-20" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Interconnecter le routeur et le commutateur3650 via un lien en /30 (/31 au S2) (libre choix)
+◦ Mot clé pour le 3650 => port L3
+]]></notes>
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="18" uid="0a7eb19c49354b0184eca9f5fafcbee4" name="Routage statique box" color="#0000ff" meeting="false" start="2024-12-17" duration="3" complete="0" thirdDate="2024-12-17" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Effectuer du routage statique vers la Box]]></notes>
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="26" uid="6cf139917912419d9dc637fd40496054" name="Vacances de noêl" color="#990099" meeting="false" start="2024-12-20" duration="11" complete="0" thirdDate="2024-12-17" thirdDate-constraint="0" expand="true">
+            <depend id="27" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="27" uid="d7466796dbe74af4a330be0f4d3b37f0" name="Service DHCP SWR" color="#0000ff" meeting="false" start="2025-01-06" duration="1" complete="0" thirdDate="2024-11-29" thirdDate-constraint="0" expand="true">
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="24" uid="bb4c8560b6e64092a5b933e7fa72014e" name="Routage inter Vlan" color="#00ffcc" meeting="false" start="2025-01-07" duration="1" complete="0" thirdDate="2024-12-23" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Effectuer du routage inter-vlans]]></notes>
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="20" uid="196a0c62fe664c09b0bedb8ecbacae1d" name="Service SMB" color="#00ffcc" meeting="false" start="2025-01-08" duration="1" complete="0" thirdDate="2024-11-19" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Installer et configurerez un service de partage de fichier SMB avec :
+
+▪ Accès libre aux utilisateurs de l'entreprise pour lire des fichiers
+▪ Accès avec authentification pour déposer des fichiers 
+     • Groupe "Administratif" et "Administration Informatique"
+        ◦ Les utilisateurs peuvent seulement supprimer et modifier les fichiers et     dossiers leur appartenant]]></notes>
+        </task>
+        <task id="21" uid="cce05971aefa46c09576d69d68f993e1" name="Service DNS" color="#00ffcc" meeting="false" start="2025-01-08" duration="1" complete="0" thirdDate="2024-11-19" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Installerez et configurerez un service cache DNS (Bind9)
+]]></notes>
+        </task>
+        <task id="22" uid="5dd7b5d0f7d048d2b20e63ef9330ffc5" name="Service Web" color="#00ffcc" meeting="false" start="2025-01-08" duration="1" complete="0" thirdDate="2024-11-19" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Installerez et configurerez un service web:
+▪ Ngynx
+▪ Déposerer notre site web fait cette année]]></notes>
+        </task>
+        <task id="23" uid="50cc028327dd49a795cd1ffb7d0af3ea" name="Service TFTP" color="#00ffcc" meeting="false" start="2025-01-08" duration="1" complete="0" thirdDate="2024-11-19" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Installerez et configurerez un service TFTP.
+Stockerez manuellement les configurations des commutateurs et routeur, plus les IOS.]]></notes>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="SCHER Florian" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="Come Dairin" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Maxime Antoine" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Martin Bretonnière" function="Default:0" contacts="" phone=""/>
+        <resource id="4" name="Tristan Coeuret" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="12" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
