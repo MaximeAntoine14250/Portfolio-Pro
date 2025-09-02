@@ -30,7 +30,7 @@ const saeData = {
         autoevaluation: 'Très bonne assimilation des concepts de base. Formation théorique solide mais j\'aimerais plus de pratique technique.',
         adaptabilite: 'Ces compétences sont essentielles dans tous les métiers IT et applicables à l\'administration système et au développement.',
         preuve: {
-            description: 'Certificat ANSSI obtenu : https://drive.google.com/file/d/1DEb0HB8h6F5_Q9wR747uXcJmKevmYPfG/view?usp=sharing',
+            description: '<a href="https://drive.google.com/file/d/1DEb0HB8h6F5_Q9wR747uXcJmKevmYPfG/view?usp=sharing" target="_blank">Certificat ANSSI obtenu</a>',
             images: [
                 
             ]
@@ -73,7 +73,7 @@ const saeData = {
         autoevaluation: 'Bonne maîtrise des concepts théoriques. Collaboration efficace. Le travail n’est pas encore entièrement achevé, en particulier sur les aspects liés à la performance et aux fonctionnalités de la maquette.',
         adaptabilite: 'Base essentielle pour toute carrière informatique, applicable en administration système et support technique.',
         preuve: {
-            description: 'Compte rendu du projet : https://drive.google.com/drive/folders/1F5wCXaZG10ITycP8aN6acwITPAK338K8?usp=sharing',
+            description: '<a href="https://drive.google.com/drive/folders/1F5wCXaZG10ITycP8aN6acwITPAK338K8?usp=sharing" target="_blank">Compte rendu du projet</a>',
             images: [
                 
             ]
@@ -108,7 +108,7 @@ const saeData = {
         autoevaluation: 'Excellente progression sur la compréhension des transmissions. Développement de la rigueur scientifique.',
         adaptabilite: 'Compétences clés pour le dimensionnement de liaisons et le diagnostic de performance réseau.',
         preuve: {
-            description: 'Compte rendue SAE103 : https://drive.google.com/drive/folders/14CP3DDuWlAbtzhj-KljO53tKaqkgzkae?usp=sharing',
+            description: '<a href="https://drive.google.com/drive/folders/14CP3DDuWlAbtzhj-KljO53tKaqkgzkae?usp=sharing" target="_blank">Compte rendue SAE103',
             images: [
             ]
         }
@@ -183,9 +183,9 @@ const saeData = {
         autoevaluation: 'Excellent travail d\'équipe et maîtrise des concepts de programmation et d\'analyse de données.',
         adaptabilite: 'Compétences essentielles pour l\'analyse de performances, la business intelligence et le monitoring réseau.',
         preuve: {
-            description: 'https://drive.google.com/drive/folders/1VCEwZeV8_RcG3ropo_G_jTAxhQRXHjsA?usp=sharing',
+            description: '<a href="https://drive.google.com/drive/folders/1VCEwZeV8_RcG3ropo_G_jTAxhQRXHjsA?usp=sharing" traget="_blank">Code sourse',
             images: [
-                'Très bon résultat obtenue'
+                
             ]
         }
     },
@@ -220,7 +220,7 @@ const saeData = {
         autoevaluation: 'Projet bien réussi démontrant une bonne maîtrise technique et une collaboration efficace.',
         adaptabilite: 'Compétences Cisco directement valorisables en entreprise et préparant aux certifications professionnelles.',
         preuve: {
-            description: 'cour : https://drive.google.com/drive/folders/1etInl5py98Z-ReA21WRzSgvZ9wpAHXZY?usp=sharing',
+            description: '<a href="https://drive.google.com/drive/folders/1etInl5py98Z-ReA21WRzSgvZ9wpAHXZY?usp=sharing" traget="_blank">Cour',
             images: [
                 
             ]
@@ -256,7 +256,7 @@ const saeData = {
         autoevaluation: 'Travail exemplaire avec maîtrise d\'équipements complexes et développement de l\'esprit critique.',
         adaptabilite: 'Compétences de métrologie cruciales pour le déploiement et la maintenance d\'infrastructures télécoms.',
         preuve: {
-            description: 'Comptes rendues des projet de SAE202 : https://drive.google.com/drive/folders/143NVPE9gF8Dm6-UI1kJCkr5TYPyXzO_7?usp=sharing',
+            description: '<a href="https://drive.google.com/drive/folders/143NVPE9gF8Dm6-UI1kJCkr5TYPyXzO_7?usp=sharing" traget="_blank">Comptes rendues des projet de SAE202',
             images: [
                 
             ]
@@ -329,7 +329,7 @@ const saeData = {
         autoevaluation: 'Projet exemplaire représentant l\'aboutissement de ma formation. Trés bonne synergie d\'équipe.',
         adaptabilite: 'Ce projet démontre ma capacité à gérer des projets IT complexes directement applicables en entreprise.',
         preuve: {
-            description: 'Livrablessss : https://drive.google.com/drive/folders/18wZLE7_epo6QuWtt3LlqUXMmnZEGJKTv?usp=sharing',
+            description: '<a href="https://drive.google.com/drive/folders/18wZLE7_epo6QuWtt3LlqUXMmnZEGJKTv?usp=sharing" target="_blank">Projet complet',
             images: [
             ]
         }
