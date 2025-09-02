@@ -30,7 +30,7 @@ const saeData = {
         autoevaluation: 'Très bonne assimilation des concepts de base. Formation théorique solide mais j\'aimerais plus de pratique technique.',
         adaptabilite: 'Ces compétences sont essentielles dans tous les métiers IT et applicables à l\'administration système et au développement.',
         preuve: {
-            description: 'Certificat ANSSI obtenu.',
+            description: 'Certificat ANSSI obtenu : https://drive.google.com/file/d/1DEb0HB8h6F5_Q9wR747uXcJmKevmYPfG/view?usp=sharing',
             images: [
                 
             ]
@@ -183,7 +183,7 @@ const saeData = {
         autoevaluation: 'Excellent travail d\'équipe et maîtrise des concepts de programmation et d\'analyse de données.',
         adaptabilite: 'Compétences essentielles pour l\'analyse de performances, la business intelligence et le monitoring réseau.',
         preuve: {
-            description: '',
+            description: 'https://drive.google.com/drive/folders/1VCEwZeV8_RcG3ropo_G_jTAxhQRXHjsA?usp=sharing',
             images: [
                 'Très bon résultat obtenue'
             ]
@@ -220,7 +220,7 @@ const saeData = {
         autoevaluation: 'Projet bien réussi démontrant une bonne maîtrise technique et une collaboration efficace.',
         adaptabilite: 'Compétences Cisco directement valorisables en entreprise et préparant aux certifications professionnelles.',
         preuve: {
-            description: 'cour : https://fromsmash.com/0tY_m0.2TE-ct',
+            description: 'cour : https://drive.google.com/drive/folders/1etInl5py98Z-ReA21WRzSgvZ9wpAHXZY?usp=sharing',
             images: [
                 
             ]
