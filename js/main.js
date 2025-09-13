@@ -7,7 +7,7 @@ const saeData = {
         semestre: 'Semestre 1',
         type: 'Individuel',
         resultat: {
-            description: 'Completion du MOOC ANSSI avec obtention du certificat. Maîtrise des concepts fondamentaux de cybersécurité : authentification, chiffrement, sauvegardes, et bonnes pratiques de sécurité informatique.',
+            description: 'Complétion du MOOC ANSSI avec obtention du certificat. Maîtrise des concepts fondamentaux de cybersécurité : authentification, chiffrement, sauvegardes, et bonnes pratiques de sécurité informatique.',
             qualite: 4,
             details: [
                 'Certificat ANSSI obtenu avec 100% de réussite',
@@ -48,10 +48,10 @@ const saeData = {
         semestre: 'Semestre 1',
         type: 'Groupe de 2',
         resultat: {
-            description: 'Réalisation d\ une maquette réseaux, d\'un dossier technique complet avec schémas détaillés et présentation orale maîtrisée.',
+            description: 'Réalisation d\'une maquette réseaux, d\'un dossier technique complet avec schémas détaillés et présentation orale maîtrisée.',
             qualite: 3,
             details: [
-                'Maquette fonctinelle a 60 %',
+                'Maquette fonctionnelle à 60 %',
                 'Dossier technique structuré et professionnel',
                 'Schémas réseaux clairs avec Packet Tracer',
                 'Calculs d\'adressage IP maîtrisés',
@@ -97,7 +97,7 @@ const saeData = {
             ]
         },
         demarche: {
-            description: 'Analyse rigoureuse des résultats théorique et pratique',
+            description: 'Analyse rigoureuse des résultats théoriques et pratiques',
             qualite: 4,
             etapes: [
                 'Recherche théorique approfondie',
@@ -108,7 +108,7 @@ const saeData = {
         autoevaluation: 'Excellente progression sur la compréhension des transmissions. Développement de la rigueur scientifique.',
         adaptabilite: 'Compétences clés pour le dimensionnement de liaisons et le diagnostic de performance réseau.',
         preuve: {
-            description: '<a href="https://drive.google.com/drive/folders/14CP3DDuWlAbtzhj-KljO53tKaqkgzkae?usp=sharing" target="_blank">Compte rendue SAE103',
+            description: '<a href="https://drive.google.com/drive/folders/14CP3DDuWlAbtzhj-KljO53tKaqkgzkae?usp=sharing" target="_blank">Compte rendu SAE103',
             images: [
             ]
         }
@@ -183,7 +183,7 @@ const saeData = {
         autoevaluation: 'Excellent travail d\'équipe et maîtrise des concepts de programmation et d\'analyse de données.',
         adaptabilite: 'Compétences essentielles pour l\'analyse de performances, la business intelligence et le monitoring réseau.',
         preuve: {
-            description: '<a href="https://drive.google.com/drive/folders/1VCEwZeV8_RcG3ropo_G_jTAxhQRXHjsA?usp=sharing" traget="_blank">Code sourse',
+            description: '<a href="https://drive.google.com/drive/folders/1VCEwZeV8_RcG3ropo_G_jTAxhQRXHjsA?usp=sharing" target="_blank">Code source',
             images: [
                 
             ]
@@ -220,7 +220,7 @@ const saeData = {
         autoevaluation: 'Projet bien réussi démontrant une bonne maîtrise technique et une collaboration efficace.',
         adaptabilite: 'Compétences Cisco directement valorisables en entreprise et préparant aux certifications professionnelles.',
         preuve: {
-            description: '<a href="https://drive.google.com/drive/folders/1etInl5py98Z-ReA21WRzSgvZ9wpAHXZY?usp=sharing" traget="_blank">Cour',
+            description: '<a href="https://drive.google.com/drive/folders/1etInl5py98Z-ReA21WRzSgvZ9wpAHXZY?usp=sharing" target="_blank">Cours',
             images: [
                 
             ]
@@ -256,7 +256,7 @@ const saeData = {
         autoevaluation: 'Travail exemplaire avec maîtrise d\'équipements complexes et développement de l\'esprit critique.',
         adaptabilite: 'Compétences de métrologie cruciales pour le déploiement et la maintenance d\'infrastructures télécoms.',
         preuve: {
-            description: '<a href="https://drive.google.com/drive/folders/143NVPE9gF8Dm6-UI1kJCkr5TYPyXzO_7?usp=sharing" traget="_blank">Comptes rendues des projet de SAE202',
+            description: '<a href="https://drive.google.com/drive/folders/143NVPE9gF8Dm6-UI1kJCkr5TYPyXzO_7?usp=sharing" target="_blank">Comptes rendus des projets de SAE202',
             images: [
                 
             ]
@@ -326,7 +326,7 @@ const saeData = {
                 'Tests',
             ]
         },
-        autoevaluation: 'Projet exemplaire représentant l\'aboutissement de ma formation. Trés bonne synergie d\'équipe.',
+        autoevaluation: 'Projet exemplaire représentant l\'aboutissement de ma formation. Très bonne synergie d\'équipe.',
         adaptabilite: 'Ce projet démontre ma capacité à gérer des projets IT complexes directement applicables en entreprise.',
         preuve: {
             description: '<a href="https://drive.google.com/drive/folders/18wZLE7_epo6QuWtt3LlqUXMmnZEGJKTv?usp=sharing" target="_blank">Projet complet',
